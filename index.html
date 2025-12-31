@@ -126,13 +126,13 @@
             display: flex;
             flex-direction: column;
             align-items: flex-end;
-            gap: 4px;
+            
         }
 
         .balance-row {
             text-align: right;
             font-size: 15px;
-            line-height: 1.5;
+            line-height: 1.2;
         }
 
         .balance-label {
@@ -147,14 +147,17 @@
 
         .amount-total {
             color: #333;
+            
         }
 
         .amount-paid {
             color: #4caf50;
+            font-weight: 600;
         }
 
         .amount-due {
             color: #d32f2f;
+            font-weight: 600;
         }
 
         .wallet-btn {
@@ -447,7 +450,7 @@
             .total-amount {
                 font-size: 28px;
             }
-            body{
+            #body{
                 
                   font-size: 13px;
             }
@@ -523,11 +526,11 @@
                 <span class="balance-amount amount-total">₦1,615,000.00</span>
             </div>
             <div class="balance-row">
-                <span class="balance-label">Amount Paid:  &nbsp; </span>
+                <span class="balance-label amount-paid">Amount Paid:  &nbsp; </span>
                 <span class="balance-amount amount-paid">₦0.00</span>  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  &nbsp;
             </div>
             <div class="balance-row">
-                <span class="balance-label">Balance Due:</span>
+                <span class="balance-label amount-due">Balance Due:</span>
                 <span class="balance-amount amount-due">₦1,615,000.00</span>
             </div>
             <button class="wallet-btn">
